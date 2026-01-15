@@ -212,3 +212,13 @@ If you are developing or running this on an Apple Silicon Mac, you should ensure
 
 - `npm run build:debug` – Build in debug mode (faster compilation).
 - `npm test` – Run the simple example script (`examples/simple_usage.js`).
+
+## License and attribution
+
+This npm package (`vibe-executor`) and its Node.js bindings are provided under the Apache License, Version 2.0. See the LICENSE file at the repository root for the full text.
+
+The underlying executors implementation is reused from the Vibe Kanban project:
+
+- Vibe Kanban – https://github.com/BloopAI/vibe-kanban
+
+Those components are licensed under the Apache License, Version 2.0. Additional attribution details are included in the NOTICE file at the repository root.

@@ -1,6 +1,6 @@
 {
   "name": "vibe-executor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js bindings for vibe-kanban executors",
   "main": "index.js",
   "types": "index.d.ts",
@@ -28,7 +28,7 @@
     "artifacts": "napi artifacts",
     "test": "node examples/simple_usage.js"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "devDependencies": {
     "@napi-rs/cli": "^2.18.0"
   },
