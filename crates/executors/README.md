@@ -130,7 +130,9 @@ const config = JSON.stringify({
 ### Single executor (Claude Code)
 
 ```javascript
-import { JsExecutor } from "vibe-executor";
+import vibeExecutor from "vibe-executor";
+
+const { JsExecutor } = vibeExecutor;
 
 async function main() {
   const config = JSON.stringify({

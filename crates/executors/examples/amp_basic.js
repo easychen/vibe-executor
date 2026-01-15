@@ -1,4 +1,6 @@
-const { JsExecutor } = require("../index.js");
+import vibeExecutor from "../index.js";
+
+const { JsExecutor } = vibeExecutor;
 
 async function main() {
   console.log("Creating Amp executor...");
@@ -26,10 +28,7 @@ async function main() {
   console.log(`\nExecutor finished with code: ${exitCode}`);
 }
 
-if (require.main === module) {
-  main().catch((err) => {
-    console.error("Error encountered:", err);
-    process.exitCode = 1;
-  });
-}
-
+main().catch((err) => {
+  console.error("Error encountered:", err);
+  process.exitCode = 1;
+});
